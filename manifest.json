@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Equation Solver",
+  "description": "Solve math equations and expressions instantly",
+  "developer_name": "You",
+  "icon": "images/icon.svg",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "solve_kw",
+      "type": "keyword",
+      "name": "Solve",
+      "description": "Trigger keyword for equation solver",
+      "default_value": "solve"
+    }
+  ]
+}
